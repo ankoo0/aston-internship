@@ -24,6 +24,8 @@ public class Main{
         System.out.println(customList);
         customList.remove(5);
         System.out.println(customList);
+        customList.remove(2);
+        System.out.println(customList);
         customList.sort(Comparator.naturalOrder());
         System.out.println(customList);
         System.out.println(customList.size());
@@ -48,6 +50,8 @@ public class Main{
         list.remove("AA");
         System.out.println(list);
         list.remove(5);
+        System.out.println(list);
+        list.remove(2);
         System.out.println(list);
         list.sort(Comparator.naturalOrder());
         System.out.println(list);
